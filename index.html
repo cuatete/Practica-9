@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Información de Personajes</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <main id="tarjeta">
+    <div class="receta-item">
+      <img src="img/Clawdeen wolf.PNG" alt="Clawdeen Wolf" onclick="mostrarReceta('info-clawdeen')">
+      <div id="info-clawdeen" class="info-receta">
+        <div class="receta-contenido">
+          <div class="contenido-dividido">
+            <div class="receta-texto">
+              <h1>Clawdeen Wolf</h1>
+              <h3>Descripción:</h3>
+              <ul>
+                <li>Cabello largo y ondulado con reflejos dorados</li>
+                <li>Maquillaje dramático y atuendo feroz</li>
+                <li>Estilo audaz y personalidad fuerte</li>
+              </ul>
+              <h3>Franquicia:</h3>
+              <p>Personaje de Monster High, conocida por su moda y actitud salvaje.</p>
+            </div>
+            <div class="receta-imagen">
+              <img src="img/Clawdeen wolf.PNG" alt="Clawdeen">
+            </div>
+          </div>
+          <button class="boton-cerrar" onclick="cerrarReceta('info-clawdeen')">Cerrar</button>
+        </div>
+      </div>
+    </div>
+   
+    <div class="receta-item">
+      <img src="img/Draculaura.PNG" alt="Draculaura" onclick="mostrarReceta('info-draculaura')">
+      <div id="info-draculaura" class="info-receta">
+        <div class="receta-contenido">
+          <div class="contenido-dividido">
+            <div class="receta-texto">
+              <h1>Draculaura</h1>
+              <h3>Descripción:</h3>
+              <ul>
+                <li>Piel pálida y cabello negro con mechones rosas</li>
+                <li>Marca de corazón en la mejilla</li>
+                <li>Estilo dulce y alegre</li>
+              </ul>
+              <h3>Franquicia:</h3>
+              <p>Personaje de Monster High, hija del Conde Drácula, amante de la moda y la amistad.</p>
+            </div>
+            <div class="receta-imagen">
+              <img src="img/Draculaura.PNG" alt="Draculaura">
+            </div>
+          </div>
+          <button class="boton-cerrar" onclick="cerrarReceta('info-draculaura')">Cerrar</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="receta-item">
+      <img src="img/Cleo de nile.PNG" alt="Cleo de Nile" onclick="mostrarReceta('info-cleo')">
+      <div id="info-cleo" class="info-receta">
+        <div class="receta-contenido">
+          <div class="contenido-dividido">
+            <div class="receta-texto">
+              <h1>Cleo de Nile</h1>
+              <h3>Descripción:</h3>
+              <ul>
+                <li>Estilo egipcio con tocado dorado y maquillaje vibrante</li>
+                <li>Ojos verdes y símbolo bajo el ojo</li>
+                <li>Actitud regia y elegante</li>
+              </ul>
+              <h3>Franquicia:</h3>
+              <p>Personaje de Monster High, hija de la momia, con una estética inspirada en el antiguo Egipto.</p>
+            </div>
+            <div class="receta-imagen">
+              <img src="img/Cleo de nile.PNG" alt="Cleo de Nile">
+            </div>
+          </div>
+          <button class="boton-cerrar" onclick="cerrarReceta('info-cleo')">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="ejecucion.js"></script>
+</body>
+</html>
